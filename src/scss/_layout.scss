@@ -1,11 +1,11 @@
-.row + .row {
-  margin-top: 16px;
+.l-title {
+  background-image: url(../img/sumidero_canyon.webp);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  padding: 180px 10px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.l-smalltitle {
+  background: #99cc33;
 }
